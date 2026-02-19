@@ -1,0 +1,23 @@
+# ---- Python ----
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+# ---- Jupyter ----
+.ipynb_checkpoints/
+# ---- Environment ----
+.env
+# ---- Data (large, generated) ----
+data/01_raw/
+data/02_interim/
+data/03_processed/
+# ---- Experiments / outputs ----
+runs/
+outputs/
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# ---- Logs ----
+*.log
